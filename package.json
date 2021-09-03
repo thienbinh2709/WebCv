@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "start": "nodemon --inspect src/app.js",
+    "start": "nodemon --inspect app.js",
     "watch": "node-sass -w src/resources/scss/app.scss --output src/public/css/"
   },
   "author": "",
