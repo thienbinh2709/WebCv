@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.img-logo {
+  width: 3rem; }
+
+.nav-text {
+  font-size: 20; }
+
+.app .main {
+  position: relative;
+  width: 100%;
+  background-image: url("https://user-images.githubusercontent.com/81351605/130778639-09a0ec39-c948-4039-845e-6aaa59922028.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow: hidden; }
+  .app .main .bmain {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.473); }
+    .app .main .bmain .txt-main {
+      color: #ffffff;
+      font-size: 5.5rem;
+      font-weight: 700; }
+    .app .main .bmain .txt-note {
+      font-size: 1.75rem;
+      color: #ffffff;
+      font-weight: 500; }
