@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="399d80ab-b36c-454b-8de4-9b32c6b186a5" name="Default Changelist" comment="" />
+    <list default="true" id="399d80ab-b36c-454b-8de4-9b32c6b186a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,15 +43,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,6 +72,7 @@
       <workItem from="1629650270638" duration="1171000" />
       <workItem from="1629702994366" duration="1616000" />
       <workItem from="1630657713531" duration="1153000" />
+      <workItem from="1630658894654" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="as">
       <created>1628546613214</created>
@@ -150,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629706102382</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="git 1">
+      <created>1630659345656</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1630659345656</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="as" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="git 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="git 1" />
   </component>
 </project>

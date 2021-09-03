@@ -4,10 +4,10 @@ const path = require('path');
 const morgan = require('morgan');
 const handlebars = require('express-handlebars');
 const port = 5000;
-const route = require('./routes');
-const db = require('./config/db');
+const route = require('./src/routes');
+const db = require('./src/config/db');
 const methodOverride = require('method-override');
-const SortMiddleware = require('./app/middlewares/sortMiddlewares');
+const SortMiddleware = require('./src/app/middlewares/sortMiddlewares');
 
 
 
@@ -36,7 +36,7 @@ app.engine(
     'hbs',
     handlebars({
         extname: '.hbs',
-        helpers: require('./helpers/handlebars')
+        helpers: require('./src/helpers/handlebars')
     }),
 );
 app.set('view engine', 'hbs');
